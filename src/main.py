@@ -1,7 +1,7 @@
 ﻿from fastapi import FastAPI
 
-app = FastAPI(title="fastapi-cream")
+app = FastAPI(title="fastapi-clean")
 
 @app.get("/")
 async def root():
-    return {"name": "fastapi-cream", "tag": "FastAPI, in cream."}
+    return {"name": "fastapi-clean", "tag": "FastAPI, in clean."}
